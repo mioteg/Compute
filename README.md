@@ -1,13 +1,40 @@
-# Compute
-This session equips the Solution Architect with essential knowledge to leverage compute options the Azure platform provides in various application scenarios.  Learn how to deploy virtual machines, customize images, and attach disks to support your most demanding workloads.  Next, understand how to use platform-as-a-service options for web apps, web jobs, mobile apps, Docker containers, and service fabric.  And finally, see how to capture the promise of elasticity that cloud computing makes by auto-scaling your solutions.
-##Presentation
-Download the [PowerPoint](https://github.com/GSIAzureCOE/Compute/blob/master/todo.pptx).
+# Scalable Compute in Azure
+This session equips the Solution Architect with essential knowledge to leverage scalable and elastic compute in the Azure platform provides.
+Learn what it takes to create scalable, fault tolerant, distributed applications using Virtual Machine Scale Sets (VMSS) and Microservices Architecture.
+See how VMSS works and learn how it relates to other services in the Azure platform.
+Learn how you can run applications using Docker containers in Azure Container Service.
+Become familiar with Service Fabric, which runs many services in the Azure platform, and learn how to build your own applications using Service Fabric.
+
+## Presentation
+Download the [PowerPoint](Azure%20Scalabale%20Compute.pptx).
 The PowerPoint includes full speaker notes helping you understand the slides, and everything you need to deliver the session.
 
-Watch the [video](https://gsiazurecoecontent.blob.core.windows.net/compute/todo.mp4).
+Session duration: 90 minutes
 
 ## Demos
-1. Demo 1
-[[source code](https://github.com/GSIAzureCOE/Compute/blob/master/todo)]
-[[demo script](https://github.com/GSIAzureCOE/Compute/blob/master/todo.docx)]
-[[video](https://gsiazurecoecontent.blob.core.windows.net/compute/todo.mp4)]
+1. VM Scale Sets [[demo script](./Demo 1 - VM Scale Sets/README.md)]
+2. Docker, Docker Trusted Registry, Container Apps [[demo script](./Demo 2 - Docker/README.md)]
+3. Azure Container Service [[demo script](./Demo 3 - Azure Container Service/README.md)]
+4. Service Fabric [[demo script](./Demo 4 - Service Fabric/README.md)]
+
+## Session objectives
+- Relevance of scalable services in a Cloud world
+- Using VM Scale Sets
+- Microservices Architecture (and its benefits)
+- Using Docker
+- Running Docker containers in Azure Container Service
+- Building Service Fabric applications
+- Running Service Fabric applications on Azure
+- Choosing between VMs, VM Scale Set, Containers, Service Fabric, and other services
+
+## Session Prerequisits
+- Knowledge of Azure VMs
+- Knowledge of disk configuration with Azure VMs
+- Knowledge of VM Availability Sets
+
+These prerequisits are covered in the [[Architecting Virtual Machine Solutions](https://github.com/GSIAzureCOE/Virtual-Machine-Solutions)] session.
+
+## Azure Services Covered
+- [[Virtual Machine Scale Sets](https://azure.microsoft.com/en-us/documentation/services/virtual-machine-scale-sets/)]
+- [[Azure Container Service](https://azure.microsoft.com/en-us/services/container-service/)]
+- [[Service Fabric](https://azure.microsoft.com/en-us/documentation/services/service-fabric/)]
