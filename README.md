@@ -38,3 +38,6 @@ These prerequisits are covered in the [[Architecting Virtual Machine Solutions](
 - [[Virtual Machine Scale Sets](https://azure.microsoft.com/en-us/documentation/services/virtual-machine-scale-sets/)]
 - [[Azure Container Service](https://azure.microsoft.com/en-us/services/container-service/)]
 - [[Service Fabric](https://azure.microsoft.com/en-us/documentation/services/service-fabric/)]
+
+## Code of Conduct
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
