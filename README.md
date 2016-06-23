@@ -27,12 +27,12 @@ Session duration: 90 minutes
 - Running Service Fabric applications on Azure
 - Choosing between VMs, VM Scale Set, Containers, Service Fabric, and other services
 
-## Session Prerequisits
+## Session prerequisites 
 - Knowledge of Azure VMs
 - Knowledge of disk configuration with Azure VMs
 - Knowledge of VM Availability Sets
 
-These prerequisits are covered in the [[Architecting Virtual Machine Solutions](https://github.com/GSIAzureCOE/Virtual-Machine-Solutions)] session.
+These prerequisites  are covered in the [[Architecting Virtual Machine Solutions](https://github.com/GSIAzureCOE/Virtual-Machine-Solutions)] session.
 
 ## Azure Services Covered
 - [[Virtual Machine Scale Sets](https://azure.microsoft.com/en-us/documentation/services/virtual-machine-scale-sets/)]
