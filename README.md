@@ -6,7 +6,7 @@ Learn how you can run applications using Docker containers in Azure Container Se
 Become familiar with Service Fabric, which runs many services in the Azure platform, and learn how to build your own applications using Service Fabric.
 
 ## Presentation
-Download the [PowerPoint](Azure%20Scalabale%20Compute.pptx).
+Download the [PowerPoint](./Azure%20Scalable%20Compute.pptx?raw=1).
 The PowerPoint includes full speaker notes helping you understand the slides, and everything you need to deliver the session.
 
 Session duration: 90 minutes
