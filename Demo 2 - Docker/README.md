@@ -33,7 +33,7 @@ This section lists the prerequisites required for this demonstration.
 
 8.  Execute `docker run -it centos`
 
-9.  Let the container download and start, the type `exit<enter>`.
+9.  Let the container download and start, the type `exit`.
 
 10.  For use with GitHub, generate a SSH-key and add it to the SSH agent. See https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/.                                                           
 
@@ -84,7 +84,7 @@ This demo consists of two separate demo parts:
 
 6.	Change directory to `\Program Files (x86)\Git\Bin`
 
-7.	Execute `ssh adminuser@&lt;dns name or ip-address&gt;`
+7.	Execute `ssh adminuser@<dns name or ip-address>`
 
 8.	Enter the password.
 
@@ -130,7 +130,7 @@ This demo consists of two separate demo parts:
 
 28.	Execute `cat /etc/centos-release` to show that the container is running CentOS instead of Linux. Explain that this is based a platform image, and that this means you can build layers on top of a specific Linux version, and have isolation from the OS running the container host.
 
-28.	Type `exit<enter>`.
+28.	Type `exit`.
 
 29.	Change directory to `aspnet-Home/samples/1.0.0-rc1-update1/HelloWeb/`
 
