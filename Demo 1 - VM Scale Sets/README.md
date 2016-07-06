@@ -22,8 +22,6 @@ The setup pre-builds a VMSS to demo later. During the demo you will also demonst
 3.  Login to the portal.
 4.  If not already selected, click **Edit Parameters**.
 
-    <img src="./media/image2.png" align="right" width="500" />
-
 5.  Enter the following values:
 
     a.  (1) VMSSNAME: `<unique 9 character string>` (VMSS is registered with DNS with &lt;vmssname&gt;.&lt;region&gt;.azure.com. If the name is not unique to the region, deployment will fail. Use something like 4 letters of your alias + vmss + number.)
@@ -31,8 +29,10 @@ The setup pre-builds a VMSS to demo later. During the demo you will also demonst
     b.  (2) INSTANCECOUNT: `1`
 
     c.  (3) ADMINUSERNAME: `<your preferred username>`
-                                                                                                                                                                                                        
-    d.  (4) ADMINPASSWORD: `<your preferred password>`                                                                                                                                                                                                    
+
+    d.  (4) ADMINPASSWORD: `<your preferred password>` 
+
+    <img src="./media/image2.png" />                                                                                                                                                                                                   
 
 6.  (5) Click **OK**.
 
@@ -59,7 +59,7 @@ The setup pre-builds a VMSS to demo later. During the demo you will also demonst
 
 15.  Enter `600` in the *Duration* textbox.
 
-     <img src="./media/image4.png" width="550" />
+     <img src="./media/image4.png" />
                                                                                                                                                                                                                                                                    
 16.  Click **Do work**. This will create a CPU load that will lead to auto scale. The work will continue for 10 minutes, after which the cluster will downscale again. In the demo you will show the scale-up/down events.
 
